@@ -48,7 +48,7 @@ export default {
                         </div>
 
                         <h3>
-                            Find the ultimate virtual assistant for your business
+                            Professional who works to help with your business.
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, nisi?
@@ -71,16 +71,17 @@ export default {
                     <div class="col-6">
                         <div class="card mb-3">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <h3 class="text-center">1.</h3>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-10">
                                     <div class="card-body">
                                         <h5>
                                             Learn to delegate
                                         </h5>
-                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                            Voluptates iusto minus sapiente earum non blanditiis.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                            exercitationem voluptates delectus! Incidunt quo libero ab minus, laudantium
+                                            quod nisi?</p>
                                         <p>
                                             <a href="#">Learn more</a>
                                         </p>
@@ -92,16 +93,17 @@ export default {
                     <div class="col-6">
                         <div class="card mb-3">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <h3 class="text-center">2.</h3>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-10">
                                     <div class="card-body">
                                         <h5>
                                             Reduce labor costs
                                         </h5>
-                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                            Voluptates iusto minus sapiente earum non blanditiis.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Dignissimos earum doloribus aliquid delectus quos excepturi cumque eveniet autem
+                                            odit sapiente.</p>
                                         <p>
                                             <a href="#">Learn more</a>
                                         </p>
@@ -148,6 +150,7 @@ export default {
 
 .sx {
     flex-direction: column;
+    color: #0d1167;
 
     h3 {
         font-size: 40px;
@@ -183,17 +186,22 @@ export default {
     color: white;
     border-radius: 0px;
 
-    .row{
-        padding: 10px;
+    h3 {
+        font-size: 40px;
     }
 
-    a{
+    .row {
+        padding: 30px;
+        padding-top: 50px;
+    }
+
+
+    a {
         text-decoration: none;
         color: #f86635;
 
-        &:hover{
+        &:hover {
             text-decoration: underline;
         }
     }
-}
-</style>
+}</style>
