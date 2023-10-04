@@ -75,6 +75,8 @@ export default {
     </div>
 </template>
 
+
+<!-- SCSS -->
 <style lang="scss" scoped>
 .sectionOne {
     width: 100%;

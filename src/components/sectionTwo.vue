@@ -7,6 +7,7 @@ export default {
 
 <template>
     <div class="sectionTwo">
+        
         <div class="row top text-center">
             <p>
                 Lorem ipsum dolor sit amet consectetur.
@@ -89,6 +90,8 @@ export default {
     </div>
 </template>
 
+
+<!-- SCSS -->
 <style lang="scss" scoped>
 .sectionTwo {
     width: 100%;
