@@ -38,9 +38,13 @@ export default {
                     </div>
                 </div>
             </div>
+
+
+            
+           
         </section>
 
-
+<div class="cercle"></div>
 
         <section class="bottom">
 
@@ -82,6 +86,7 @@ export default {
     width: 100%;
     min-height: 1000px;
     color: #0d1167;
+    position: relative;
 }
 
 .top {
@@ -98,8 +103,8 @@ h5 {
     border-top: solid #f0f1f5;
     border-right: solid #f0f1f5;
 
-    :hover {
-        text-decoration: underline;
+    &:hover {
+       background-color: #f0f1f5;
     }
 }
 
@@ -107,6 +112,16 @@ h5 {
     border-right: none;
 }
 
+.cercle{
+    width: 100px;
+    height: 200px;
+    background-color: #f86635;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+}
 .sx {
     padding: 30px;
 }
@@ -130,6 +145,10 @@ h5 {
         padding: 10px 30px;
         border-radius: 2px;
         font-size: 15px;
+
+        &:hover {
+            background-color: #0d1167;
+        }
     }
 }
 

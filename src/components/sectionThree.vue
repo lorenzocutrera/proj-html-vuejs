@@ -70,6 +70,7 @@ export default {
                 <div class="row">
                     <div class="col-6">
                         <div class="card mb-3">
+                            <div class="corner"></div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h3 class="text-center">1.</h3>
@@ -142,6 +143,10 @@ export default {
     img {
         width: 100%;
     }
+
+    :hover {
+           border-bottom: #0d1167 solid 1px;
+        }
 }
 
 .dx {
@@ -168,6 +173,10 @@ export default {
         padding: 10px 30px;
         border-radius: 2px;
         font-size: 15px;
+
+        &:hover {
+            background-color: #0d1167;
+        }
     }
 }
 
@@ -185,6 +194,7 @@ export default {
     min-height: 100px;
     color: white;
     border-radius: 0px;
+    position: relative;
 
     h3 {
         font-size: 40px;
@@ -204,4 +214,16 @@ export default {
             text-decoration: underline;
         }
     }
-}</style>
+
+    
+}
+
+.corner{
+        width: 100px;
+        height: 100px;
+        background-color: #f86635;
+        border-top-right-radius: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+</style>

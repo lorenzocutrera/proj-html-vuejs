@@ -7,12 +7,12 @@ export default {
 
 <template>
     <div class="sectionTwo">
-        
+
         <div class="row top text-center">
             <p>
                 Lorem ipsum dolor sit amet consectetur.
             </p>
-            <h3>
+            <h3 class="slogan">
                 Highly-skilled, independent <br> professional freelacers.
             </h3>
             <div>
@@ -36,9 +36,9 @@ export default {
                                 <div class="card-body">
                                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         Voluptates iusto minus sapiente earum non blanditiis.</p>
-                                        <p>
-                                            <a href="#">Learn more</a>
-                                        </p>
+                                    <p>
+                                        <a href="#">Learn more</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -55,9 +55,9 @@ export default {
                                 <div class="card-body">
                                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         Voluptates iusto minus sapiente earum non blanditiis.</p>
-                                        <p>
-                                            <a href="#">Learn more</a>
-                                        </p>
+                                    <p>
+                                        <a href="#">Learn more</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -73,10 +73,10 @@ export default {
                                 <div class="card-body">
                                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         Voluptates iusto minus sapiente earum non blanditiis.</p>
-                                        <p>
-                                            <a href="#">Learn more</a>
-                                        </p>
-                                    
+                                    <p>
+                                        <a href="#">Learn more</a>
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -95,30 +95,43 @@ export default {
 <style lang="scss" scoped>
 .sectionTwo {
     width: 100%;
-    min-height: 600px;
+    min-height: 800px;
     background-color: #0d1167;
     color: white;
+
+    background-image: url(../assets/_img/info-bg-3.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .top {
-    padding-top: 50px;
+    padding-top: 100px;
 
-a {
-    text-decoration: none;
-    color: white;
-    background-color: #f86635;
-    padding: 10px 30px;
-    border-radius: 2px;
-    font-size: 15px;
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: #f86635;
+        padding: 10px 30px;
+        border-radius: 2px;
+        font-size: 15px;
+
+        &:hover {
+            background-color: white;
+            color: #0d1167;
+        }
+    }
 }
+
+.slogan{
+    font-size: 50px;
 }
 
 h3 {
     font-size: 40px;
-    padding: 10px;
+    padding: 20px 0px 50px 0px;   
 }
 
-.col-4{
+.col-4 {
     padding: 30px;
 }
 
@@ -128,21 +141,21 @@ h3 {
     color: white;
     border-radius: 0px;
 
-    .row{
-        padding: 10px;
+    .row {
+        padding: 20px;
     }
 
-    a{
+    a {
         text-decoration: none;
         color: #f86635;
 
-        &:hover{
+        &:hover {
             text-decoration: underline;
         }
     }
 }
 
 .bottom {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 </style>

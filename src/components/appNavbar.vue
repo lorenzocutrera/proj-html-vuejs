@@ -79,6 +79,7 @@ nav {
         color: white;
         border-bottom: white;
         padding: 10px 0px;
+
     }
 
     :hover {
@@ -119,6 +120,10 @@ nav {
         color: #0d1167;
         font-size: 15px;
 
+        &:hover {
+            background-color: #f86635;
+            color: white;
+        }
     }
 }
 </style>

@@ -24,10 +24,15 @@ export default {
             </a>
 
             <p>
+                <i class="fa-regular fa-copyright"></i>
                 Copyright 2012-2020|Avada Theme by <span>ThemeFusion</span>|All Rights Reserved|Powered by <span>WordPress</span>
             </p>   
             </div>
             
+        </div>
+
+        <div class="arrow">
+            <i class="fa-solid fa-chevron-up"></i>
         </div>
 
         <div class="alert">
@@ -49,10 +54,15 @@ export default {
 <style lang="scss" scoped>
 footer {
     width: 100%;
-    height: 400px;
+    height: 550px;
     background-color: #0d1167;
     color: white;
     position: relative;
+
+    background-image: url(../assets/_img/footer-bg-1.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3{
@@ -71,12 +81,34 @@ a {
         padding: 10px 30px;
         border-radius: 2px;
         font-size: 15px;
+
+        &:hover {
+            background-color: #f86635;
+            color: white;
+        }
     }
 
 span{
     color: #f86635;
 }
 
+.arrow{
+    width: 40px;
+    height: 25px;
+    background-color: #2f3038;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+
+    &:hover{
+        background-color: white;
+        color: #2f3038;
+    }
+}
 .alert{
     width: 150px;
     height: 120px;
@@ -85,6 +117,7 @@ span{
     position: absolute;
     right: 20px;
     bottom: 70px;
+    box-shadow:  1px 1px 5px lightgray;
     
 
     .logo{
@@ -115,5 +148,11 @@ span{
     bottom: 20px;
     justify-content: center;
     align-items: center; 
+
+    &:hover{
+        background-color: white;
+        color: #f86635;
+        border: #f86635 1px solid;
+    }
 }
 </style>
