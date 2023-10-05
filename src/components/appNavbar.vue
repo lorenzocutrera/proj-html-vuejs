@@ -26,6 +26,7 @@ export default {
 
                 <div class="page">
                     <a href="#">Service</a>
+                    <i class="fa-solid fa-angle-down"></i>
                 </div>
 
                 <div class="page">
@@ -43,7 +44,8 @@ export default {
         <div class="dx col-6 d-flex">
             <div class="get d-flex">
                 <div class="call">
-                   1.800.123.4567
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    1.800.123.4567
                 </div>
                 <a href="#">
                     Get a free consultation
@@ -94,22 +96,22 @@ nav {
     justify-content: flex-end;
 }
 
-.get{
+.get {
     margin: 0px 50px;
     align-items: center;
     color: white;
 
-    .call{
+    .call {
         margin: 0px 50px;
         padding: 10px 0px;
 
 
-        &:hover{
+        &:hover {
             border-bottom: solid 1px white;
         }
     }
 
-    a{
+    a {
         text-decoration: none;
         background-color: white;
         padding: 10px 30px;
