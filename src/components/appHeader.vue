@@ -70,6 +70,7 @@ export default {
     min-height: 600px;
     background-color: #0d1167;
     color: white;
+    
 
     background-image: url(../assets/_img/home-bg-3.svg);
     background-size: cover;
